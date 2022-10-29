@@ -8,7 +8,11 @@ public class HelloWorld{
 		valor da variável - 10
 		*/
 		int numeroInteiro = 10;
-		double fracao = 9.5;
+
+		//variável fracao do tipo double recebe uma operação matemática 9.5 + 10
+		double fracao = 9.5 + 10;
+
+		//variável texto do tipo String esta sendo declarada e atribuída o valor estudando java
 		String texto = "estudando java";
 		boolean pergunta = true;
 
