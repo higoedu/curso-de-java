@@ -8,6 +8,14 @@ public class HelloWorld{
 		valor da variável - 10
 		*/
 		int numeroInteiro = 10;
+		double fracao = 9.5;
+		String texto = "estudando java";
+		boolean pergunta = true;
+
+		System.out.println("Numero inteiro: " + numeroInteiro +
+							"\nNumero fracionario: " + fracao +
+							"\nTexto: " + texto +
+							"\nPergunta: " + pergunta);
 	}
 	/*
 	pacotes
