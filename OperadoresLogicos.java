@@ -11,6 +11,7 @@ public class OperadoresLogicos{
 		System.out.println("Digite a idade");
 		idade = entrada.nextInt();
 
+		//faz verificação para saber se a pessoa é jovem, idosa ou meia idade
 		if(idade <= idadeJovem){
 			System.out.println("A pessoa e um jovem");
 		}
