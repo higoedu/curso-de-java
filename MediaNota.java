@@ -18,6 +18,7 @@ public class MediaNota{
 
 		media = (numero1 + numero2 + numero3 + numero4) / 4;
 
+		//condição, para verificar se o aluno foi ou não aprovado
 		if(media >= 7){
 			System.out.println("Voce foi aprovado, a media e: " + media);
 		}
