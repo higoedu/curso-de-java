@@ -17,11 +17,16 @@ public class OperadoresLogicos{
 		else if(idade >= idadeIdosa){
 			System.out.println("A pessoa e idosa");
 		}
+		/*
 		else if(idade > idadeJovem){
-			if(idade <idadeIdosa){
+			if(idade < idadeIdosa){
 				System.out.println("A pessoa e de meia idade");
 			}
 		}
-
+		*/
+		//substitui por operador lógico &&
+		else if((idade > idadeJovem) && (idade < idadeIdosa)){
+			System.out.println("A pessoa e de meia idade");
+		}
 	}
 }
