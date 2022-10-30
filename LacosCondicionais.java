@@ -8,7 +8,7 @@ public class LacosCondicionais{
 		estrutura de repetição, iteração, looping
 		*/
 		/*
-		enquanto contador for menor e igual a 9
+		enquanto contadorWhile for menor e igual a 5
 		execute o que estiver dentro do bloco de instrução
 		*/
 		while(contadorWhile <= 5){
@@ -20,6 +20,7 @@ public class LacosCondicionais{
 			System.out.println("looping while");
 		}
 
+		//faça enquanto contadorDoWhile for menor e igual a 5
 		do{
 			contadorDoWhile++;
 			System.out.println("looping do while");
