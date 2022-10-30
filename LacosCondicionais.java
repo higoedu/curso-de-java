@@ -1,6 +1,7 @@
 public class LacosCondicionais{
 	public static void main(String[] args){
-		int contador = 0;
+		int contadorWhile, contadorDoWhile;
+		contadorWhile = contadorDoWhile = 0;
 
 		/*
 		executa bloco de instrução, enquanto a instrução for verdadeira
@@ -10,13 +11,19 @@ public class LacosCondicionais{
 		enquanto contador for menor e igual a 9
 		execute o que estiver dentro do bloco de instrução
 		*/
-		while(contador <= 9){
+		while(contadorWhile <= 5){
 			/*
 			contador = contador + 1;
 			outra maneira de fazer o incremento
 			*/
-			contador++;
+			contadorWhile++;
 			System.out.println("looping while");
 		}
+
+		do{
+			contadorDoWhile++;
+			System.out.println("looping do while");
+		}
+		while(contadorDoWhile <= 5);
 	}
 }
