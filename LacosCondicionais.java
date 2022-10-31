@@ -26,5 +26,9 @@ public class LacosCondicionais{
 			System.out.println("looping do while");
 		}
 		while(contadorDoWhile <= 5);
+
+		for(int i = 0; i <=5; i++){
+			System.out.println("looping for");
+		}
 	}
 }
