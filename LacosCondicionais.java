@@ -17,13 +17,13 @@ public class LacosCondicionais{
 			outra maneira de fazer o incremento
 			*/
 			contadorWhile++;
-			System.out.println("looping while");
+			System.out.println("looping while " + contadorWhile);
 		}
 
 		//faça enquanto contadorDoWhile for menor e igual a 5
 		do{
 			contadorDoWhile++;
-			System.out.println("looping do while");
+			System.out.println("looping do while " + contadorDoWhile);
 		}
 		while(contadorDoWhile <= 5);
 
@@ -33,7 +33,23 @@ public class LacosCondicionais{
 		i++ 		- incrementamos a nossa variável
 		*/
 		for(int i = 0; i <=5; i++){
-			System.out.println("looping for");
+			System.out.println("looping for " + i);
 		}
+
+		int j = 0;
+		for(; j <=5;){
+			++j;
+			System.out.println("looping for " + j);
+		}
+
+		int k = 0;
+		for(; k <=5; k++){
+			System.out.println("looping for " + k);
+		}
+
+		for(int m = 0, n = 0; m <=5; ++m, --n){
+			System.out.println("looping for " + m + " - " + n);
+		}		
+
 	}
 }
