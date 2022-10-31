@@ -27,6 +27,11 @@ public class LacosCondicionais{
 		}
 		while(contadorDoWhile <= 5);
 
+		/*
+		int i = 0 	- declaramos uma variável
+		i <= 5 		- colocamos a condição para que o looping continue ou seja terminado
+		i++ 		- incrementamos a nossa variável
+		*/
 		for(int i = 0; i <=5; i++){
 			System.out.println("looping for");
 		}
