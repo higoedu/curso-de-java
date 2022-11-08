@@ -28,5 +28,6 @@ public class NumerosAleatorios{
 		*/
 		System.out.println(numero.nextDouble()*50);
 
+		System.out.println(numero.nextBoolean());
 	}
 }
