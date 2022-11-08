@@ -21,5 +21,12 @@ public class NumerosAleatorios{
 		for(int i = 0; i < 20; i++)
 			System.out.println(numero.nextInt(6)+1);
 		
+		/*
+		nextDouble() - trabalha com casas decimais
+		multiplicamos o valor por 50
+		entre 0 e 50
+		*/
+		System.out.println(numero.nextDouble()*50);
+
 	}
 }
