@@ -31,6 +31,27 @@ public class OperadoresTernarios{
 					 				 "dia invalido";
 
 		System.out.println("O dia foi: " + dia);
+
+		switch(numero){
+			case 1 : dia = "segunda";
+			break;
+			case 2 : dia = "terca";
+			break;
+			case 3 : dia = "quarta";
+			break;
+			case 4 : dia = "quinta";
+			break;
+			case 5 : dia = "sexta";
+			break;
+			case 6 : dia = "sabado";
+			break;
+			case 7 : dia = "domingo";
+			break;
+			default : dia = "dia invalido";
+			break;
+		}
+
+		System.out.println("O dia foi: " + dia);
 					 
 	}
 }
