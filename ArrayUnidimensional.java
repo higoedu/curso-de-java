@@ -9,6 +9,8 @@ public class ArrayUnidimensional{
 		*/
 		array = new int[10];
 
+		System.out.printf("%s%10s\n", "Indice", "Valores");
+
 		for(int i = 0; i < 10; i++){
 			/*
 			imprime de forma formatada - printf
