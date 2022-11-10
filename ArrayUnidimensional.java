@@ -26,5 +26,18 @@ public class ArrayUnidimensional{
 		for(int j = 0; j < outroarray.length; j++)
 			System.out.printf("%5d%8d\n", j, outroarray[j]);
 
+		int[] a = new int[10];
+
+		a[0] = 11;
+		a[1] = 22;
+		a[2] = 33;
+		a[3] = 44;
+		a[4] = 55;
+		a[5] = 66;
+
+		System.out.println(a[3]);
+		System.out.println(a[4]);
+		System.out.println(a[5]);
+
 	}
 }
