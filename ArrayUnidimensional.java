@@ -19,5 +19,10 @@ public class ArrayUnidimensional{
 			*/
 			System.out.printf("%5d%7d\n", i, array[i]);
 		}
+
+		int[] outroarray = {78, 20, 56, 89, 1};
+		for(int j = 0; j < outroarray.length; j++)
+			System.out.printf("%5d%8d\n", j, outroarray[j]);
+
 	}
 }
