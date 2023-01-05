@@ -15,6 +15,10 @@ public class ExpressaoLambda2 {
 		boolean teste (int n);
 	}
 
+	interface ValorNumerico2{
+		boolean teste (int n, int n2);
+	}
+
 	public static void main(String[] args){
 		//quando executarmos o programa, será criada uma instância da interface Num
 		Num n;
@@ -33,6 +37,14 @@ public class ExpressaoLambda2 {
 
 		System.out.println( isPar.teste(89) );
 		System.out.println( isPar.teste(90) );
+
+		ValorNumerico2 isDiv = (x, y) -> (x % y) == 0;
+
+		System.out.println( isDiv.teste(10 ,2) );
+		System.out.println( isDiv.teste(10, 3) );
+
+		ValorNumerico expressao1 = n4 -> (n4 % 2) == 0;
+		ValorNumerico2 expressao2 = (int x, int y) -> (x % y) == 0;
 
 	}
 }
